@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemploclase2;
+package ejemploclase22;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reati
  */
-public class EjemploClase2 {
+public class EjemploClase21 {
 
     /**
      * @param args the command line arguments
@@ -26,9 +26,11 @@ public class EjemploClase2 {
         Scanner entrada = new Scanner(System.in);
         
         System.out.println("Por favor ingrese su nombre");
-        nombre = entrada.next();
+        nombre = entrada.nextLine();
+      
+                
         System.out.println("Por favor ingres su apellido");
-        apellido = entrada.next();
+        apellido = entrada.nextLine();
        
         System.out.println("Su nombre es: "+nombre+"\n\n\t"+ "Su apellido"
                 + " es: "+apellido);
